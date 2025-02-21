@@ -2,6 +2,11 @@
 
 When working with **LlamaIndex**, selecting the right index depends on the type of query and the required depth of document understanding. Below are the best indexing strategies for questions that require a **comprehensive understanding of an entire document**.
 
+![image](https://github.com/user-attachments/assets/d9cef73c-bada-4040-90c5-f49772a9103c)
+
+
+
+
 ## **Best Index Choices for Full-Document Understanding**
 
 ### **1. Summary Index** *(Best for High-Level Understanding & Global Context)*  
