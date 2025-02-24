@@ -30,7 +30,7 @@ headers = {
 data = {
     "model": "mixtral",
     "messages": [
-        {"role": "user", "content": "Explain ESG in simple terms"}
+        {"role": "user", "content": "Explain ABC in simple terms"}
     ]
 }
 
