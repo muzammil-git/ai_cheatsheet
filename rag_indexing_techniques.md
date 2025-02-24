@@ -66,6 +66,17 @@ When working with **LlamaIndex**, selecting the right index depends on the type 
 | **Tree Index** | Large documents with structured retrieval | "What does section X say about Y?" |
 | **Composability Index** | Flexible, multi-purpose queries | "Summarize and extract emission data" |
 
+## Detailed for choosing the right index
+
+| Index Type            | How It Works | Best For | Querying Method | Use Case Example | Use Case Relevance (Your Notes) |
+|-----------------------|-------------|----------|-----------------|------------------|-------------------------------|
+| **Summary Index**     | Stores Nodes sequentially as a list. | Simple document summarization and linear retrieval. | Loads all Nodes or fetches top-k based on embedding/keywords. | Generating a summary of XYZ reports. | |
+| **Vector Store Index** | Stores Nodes with corresponding embeddings in a vector store. | Semantic search and similarity-based retrieval. | Fetches top-k similar Nodes based on embeddings. | Retrieving relevant XYZ data from company reports based on similarity. | |
+| **Tree Index**        | Builds a hierarchical tree structure from Nodes. | Structured, logical retrieval of hierarchical data. | Traverses from root to leaf nodes based on query. | Extracting structured insights from financial reports. | |
+| **Keyword Table Index** | Extracts keywords from Nodes and maps them for retrieval. | Fast lookup of keyword-based queries. | Matches query keywords to pre-extracted keywords. | Quickly finding references to "Scope 1 Emissions" in XYZ documents. | |
+| **Property Graph Index** | Creates a knowledge graph with labeled nodes and relationships. | Complex structured data, relationship-based queries. | Uses multiple retrievers (keyword, vector, synonym expansion, etc.). | Understanding relationships between sustainability metrics and company performance. | |
+
+
 ### **Which One Should You Use?**
 - **For general document understanding → Summary Index**  
 - **For structured retrieval in large documents → Tree Index**  
