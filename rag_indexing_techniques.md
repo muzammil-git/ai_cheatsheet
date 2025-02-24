@@ -20,7 +20,7 @@ When working with **LlamaIndex**, selecting the right index depends on the type 
 
 🔹 **Example Use Case:**
 ```text
-"What are the key takeaways from this ESG report?"
+"What are the key takeaways from this ABC report?"
 ```
 
 ---
@@ -36,7 +36,7 @@ When working with **LlamaIndex**, selecting the right index depends on the type 
 
 🔹 **Example Use Case:**
 ```text
-"How does this company discuss carbon emissions in its ESG report?"
+"How does this company discuss carbon emissions in its ABC report?"
 ```
   - The index finds the relevant **chapter** first, then the **paragraph** discussing emissions.
 
@@ -53,7 +53,7 @@ When working with **LlamaIndex**, selecting the right index depends on the type 
 
 🔹 **Example Use Case:**
 ```text
-"Summarize the ESG report and also find specific emission targets."
+"Summarize the ABC report and also find specific emission targets."
 ```
   - The query engine fetches **both the summary** and **retrieves emission targets**.
 
